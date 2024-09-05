@@ -1,0 +1,20 @@
+using System;
+class Restaurant{
+	static void Main(string [] args){
+	float price=0.00;
+	Console.Write("Enter Item: ");
+	string item=Console.ReadLine();
+	Console.Write("Enter Price: ");
+	price=Convert.ToSingle(Console.ReadLine());
+	Console.Write("Enter Instructions: ");
+	string in=Console.ReadLine();
+	Console.WriteLine("Item: "+item);
+	Console.WriteLine("Price: "+price);
+	Console.WriteLine("Special Instructions: "+in);
+
+
+	
+		
+		
+}
+}

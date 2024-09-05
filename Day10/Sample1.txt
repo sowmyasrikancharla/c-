@@ -1,0 +1,10 @@
+using System;
+class Sample1{
+	public static void Main(String [] args){
+	sealed double a=args[0];
+	Console.ReadLine(a);
+
+
+}
+
+}
